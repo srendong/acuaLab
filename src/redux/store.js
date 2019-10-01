@@ -1,10 +1,13 @@
 import {createStore, combineReducers, applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
-import parameters from './reducers/parameters'
+import measurements from './reducers/ measurements'
+import tanks from './reducers/tanks'
+
 
 
 const reducer = combineReducers({
-    parameters
+  measurements,
+  tanks
 })
 
 const logger = store => next => action => {

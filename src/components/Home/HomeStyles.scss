@@ -1,3 +1,24 @@
 .home{
-    height: 100vh;
+    // background-image: url("../../assets/cultivo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgba(255, 255, 255, 0.342);
+    
+    // background: rgb(39, 39, 39);
+    // height: 100vh;
+    .fondoImagen{
+        background-image: url("../../assets/cultivointerno.jpg");
+        background-size: 1200px;
+        background-position: bottom center;
+    }
+    .externa{
+        height: 8rem;
+        width: 8rem;
+        border: solid 2px rgb(78, 78, 78)
+    }
+    .imagen{
+        height: 70%;
+        width: 70%
+    }
 }

@@ -19,12 +19,12 @@ const NavbarPage = ({ state, onClick }) => {
           <Router>
             <MDBNavbar
               className="nav"
-              stiky="top"
+              // fixed="top"
               dark
               expand="md"
               scrolling
               color="blue-grey darken-4"
-            //   transparent
+              // transparent
             >
               <MDBNavbarBrand href="/home">
                 <strong>Aqua Lab</strong>
